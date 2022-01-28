@@ -1,0 +1,217 @@
+body {
+   
+background: #E5E5E5;
+box-sizing: border-box;
+}
+
+.header {
+
+width: 414px;
+height: 92px;
+/*left: 0px;
+top: 0px;*/
+
+background: #CF2B2B;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+position: fixed;
+top: 0;
+}
+
+.p1 {
+    position: absolute;
+width: 248px;
+height: 44px;
+left: 21px;
+top: 8px;
+    font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 55px;
+letter-spacing: -0.012em;
+
+color: #FFFFFF;
+
+}
+
+.p2 {
+    position: absolute;
+width: 226px;
+height: 17px;
+left: 21px;
+top: 57px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+}
+.conteudo {margin-top: 66px;
+    padding-bottom:px;
+ 
+ 
+}
+.opção img {
+        width: 130px;
+        border-radius: 5px;
+        justify-items: column;
+        justify-content: center;
+}
+.opção-dentro {
+    padding: 15px 19px 13px 16px ;
+}
+.header-topico {
+   
+width: 300px;
+height: 25px;
+left: 19px;
+top: 123px;
+margin-top: 31px;
+margin-bottom: 17px;
+font-family: Righteous;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 32px;
+letter-spacing: 0.018em;
+
+color: #333333;
+
+}
+.container-comidas {
+    display: flex;
+    margin-bottom: 16px;
+    width: 567px;
+    
+}
+.container-bebidas {
+    display: flex;
+    margin-bottom: 16px;
+    width: 567px;
+    
+}
+.container-sobremesas {
+    display: flex;
+    margin-bottom: 16px;
+    width: 567px;
+    
+}
+.comida {
+    width: 414px;
+    
+    margin-left:19px;
+    overflow:auto; 
+}
+
+.bebidas {
+    width: 414px;
+    margin-left:19px;
+    overflow:auto; 
+}
+
+.sobremesas {
+    width: 414px;
+    margin-left:19px;
+    
+    overflow:auto; 
+}
+
+    .opção {  
+width: 172px;
+height: 216px;
+/*left: 19px;
+top: 165px;*/
+
+background: #FFFFFF;
+box-shadow: 0 0 10px 0 #bbbbbb;
+border: 5px solid white
+box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+border-radius: 10px; 
+justify-content: column;
+overflow: hidden;
+margin-right: 16px;
+}
+h1 {
+    /* Frango Yin Yang */
+width: 139px;
+height: 23px;
+left: 34px;
+top: 278px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+
+color: #333333;
+margin-top: 8px;
+margin-bottom: 4px;
+   
+  }
+  .detalhes {
+    color: lightgray;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 18px;
+  }
+  .preço {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    margin-top: 5px;
+    color: #000000;
+  }
+
+  .barra-final {
+width: 414px;
+height: 92px;
+background: #FFFFFF;
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+bottom: 0;
+
+} 
+
+
+.BFs {
+       
+width: 364px;
+height: 61px;
+
+background: #CBCBCB;
+border-radius: 50px;
+        width: 364px;
+        height: 61px;
+        left: 25px;
+        bottom: 16px;
+        
+        background: #CBCBCB;
+        border-radius: 50px;
+    }
+
+.BFs p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    margin-top: 5px;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.018em;
+color: #FFFFFF;
+
+}
