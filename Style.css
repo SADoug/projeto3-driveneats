@@ -1,12 +1,51 @@
-body {
+.body {
    
 background: #E5E5E5;
 box-sizing: border-box;
-}
 
+}
+.teladeconfirmação {
+    position: absolute;
+width: 435px;
+height: 1026px;
+left: 0px;
+top: 0px;
+z-index: 1;
+background: rgba(255, 255, 255, 0.9);
+}
+.telaverde {
+    position: absolute;
+width: 377px;
+height: 353px;
+left: 19px;
+top: calc(50% - 353px/2 - 0.5px);
+
+background: #50D074;
+box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+border-radius: 9px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}.confirmação {
+    
+width: 329px;
+height: 52px;
+
+margin-top: 200px;
+
+background: #FFFFFF;
+border-radius: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.confirmação p {
+   
+}
 .header {
 
-width: 414px;
+width: 435px;
 height: 92px;
 /*left: 0px;
 top: 0px;*/
@@ -15,6 +54,7 @@ background: #CF2B2B;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 position: fixed;
 top: 0;
+margin-bottom: 10000px;
 }
 
 .p1 {
@@ -49,19 +89,210 @@ line-height: 21px;
 
 color: #FFFFFF;
 }
-.conteudo {margin-top: 66px;
-    padding-bottom:px;
- 
- 
+
+/*Aqui acaba o header*/
+
+.main {position: relative;
+margin-top: 200px;}
+
+
+.icone {
 }
-.opção img {
+.opçãofrango {  
+            width: 172px;
+            height: 216px;
+            /*left: 19px;
+            top: 165px;*/
+            
+            background: #FFFFFF;
+            box-shadow: 0 0 10px 0 #bbbbbb;
+            border: 5px solid white;
+            box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px; 
+            justify-content: column;
+            overflow: hidden;
+            margin-right: 16px;
+            }
+ .opçãocarne  {  
+    width: 172px;
+    height: 216px;
+    /*left: 19px;
+    top: 165px;*/
+    
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    justify-content: column;
+    overflow: hidden;
+    margin-right: 16px;
+    }
+.opçãosushi  {  
+    width: 172px;
+    height: 216px;
+    /*left: 19px;
+    top: 165px;*/
+    
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    justify-content: column;
+    overflow: hidden;
+    margin-right: 16px;
+    }
+.opçãofrango img {
         width: 130px;
         border-radius: 5px;
         justify-items: column;
         justify-content: center;
 }
-.opção-dentro {
-    padding: 15px 19px 13px 16px ;
+.opçãocarne img {
+    width: 130px;
+    border-radius: 5px;
+    justify-items: column;
+    justify-content: center;
+}
+.opçãosushi img {
+    width: 130px;
+    border-radius: 5px;
+    justify-items: column;
+    justify-content: center;
+}
+
+/*BEBIDAS*/
+.opçãococa  {  
+    width: 172px;
+    height: 216px;
+    /*left: 19px;
+    top: 165px;*/
+    
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    justify-content: column;
+    overflow: hidden;
+    margin-right: 16px;
+    }
+.opçãococa img {
+        width: 130px;
+        border-radius: 5px;
+        justify-items: column;
+        justify-content: center;
+}
+.fanta  {  
+    width: 172px;
+    height: 216px;
+    /*left: 19px;
+    top: 165px;*/
+    
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    justify-content: column;
+    overflow: hidden;
+    margin-right: 16px;
+    }
+.fanta img {
+        width: 130px;
+        border-radius: 5px;
+        justify-items: column;
+        justify-content: center;
+}
+.pepsi  {  
+    width: 172px;
+    height: 216px;
+    /*left: 19px;
+    top: 165px;*/
+    
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    justify-content: column;
+    overflow: hidden;
+    margin-right: 16px;
+    }
+.pepsi img {
+        width: 130px;
+        border-radius: 5px;
+        justify-items: column;
+        justify-content: center;
+}
+.pudim  {  
+    width: 172px;
+    height: 216px;
+    /*left: 19px;
+    top: 165px;*/
+    
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    justify-content: column;
+    overflow: hidden;
+    margin-right: 16px;
+    }
+.pudim img {
+        width: 130px;
+        border-radius: 5px;
+        justify-items: column;
+        justify-content: center;
+}
+.pave  {  
+    width: 172px;
+    height: 216px;
+    /*left: 19px;
+    top: 165px;*/
+    
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    justify-content: column;
+    overflow: hidden;
+    margin-right: 16px;
+    }
+.pave img {
+        width: 130px;
+        border-radius: 5px;
+        justify-items: column;
+        justify-content: center;
+}
+.doce  {  
+    width: 172px;
+    height: 216px;
+    /*left: 19px;
+    top: 165px;*/
+    
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 0 #bbbbbb;
+    border: 5px solid white;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px; 
+    justify-content: column;
+    overflow: hidden;
+    margin-right: 16px;
+    }
+.doce img {
+        width: 130px;
+        border-radius: 5px;
+        justify-items: column;
+        justify-content: center;
+}
+
+.opção-dentro:hover {
+    cursor: pointer;
+    color: green;
 }
 .header-topico {
    
@@ -104,6 +335,7 @@ color: #333333;
     
     margin-left:19px;
     overflow:auto; 
+    margin-top: 92px;
 }
 
 .bebidas {
@@ -115,7 +347,7 @@ color: #333333;
 .sobremesas {
     width: 414px;
     margin-left:19px;
-    
+    margin-bottom: 100px;
     overflow:auto; 
 }
 
@@ -127,7 +359,7 @@ top: 165px;*/
 
 background: #FFFFFF;
 box-shadow: 0 0 10px 0 #bbbbbb;
-border: 5px solid white
+border: 5px solid white;
 box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
 border-radius: 10px; 
 justify-content: column;
@@ -152,6 +384,8 @@ margin-top: 8px;
 margin-bottom: 4px;
    
   }
+
+
   .detalhes {
     color: lightgray;
     font-family: Roboto;
@@ -172,7 +406,7 @@ line-height: 18px;
   }
 
   .barra-final {
-width: 414px;
+width: 435px;
 height: 92px;
 background: #FFFFFF;
 display: flex;
@@ -180,13 +414,13 @@ justify-content: center;
 align-items: center;
 position: fixed;
 bottom: 0;
-
+margin-top: px;
 } 
 
 
 .BFs {
        
-width: 364px;
+width: 100%;
 height: 61px;
 
 background: #CBCBCB;
@@ -214,4 +448,31 @@ text-align: center;
 letter-spacing: 0.018em;
 color: #FFFFFF;
 
+}
+.selecionado {
+    border-color: green;
+}
+
+.fecharpedido {
+    background-color: #32B72F;
+}
+.roboto {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.teladeconfirmação {
+    display: none
+}
+.confirmação {
+    position: ;
+width: 329px;
+height: 52px;
+left: calc(50% - 329px/2 + 0.5px);
+top: 583px;
+
+background: #FFFFFF;
+border-radius: 100px;
 }
