@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .body {
    
 background: #E5E5E5;
@@ -45,7 +46,7 @@ align-items: center;
 }
 .header {
 
-width: 435px;
+width: 414px;
 height: 92px;
 /*left: 0px;
 top: 0px;*/
@@ -55,6 +56,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 position: fixed;
 top: 0;
 margin-bottom: 10000px;
+z-index: 1;
 }
 
 .p1 {
@@ -144,6 +146,7 @@ margin-top: 200px;}
     margin-right: 16px;
     }
 .opçãofrango img {
+        position: relative;
         width: 130px;
         border-radius: 5px;
         justify-items: column;
@@ -315,13 +318,13 @@ color: #333333;
 .container-comidas {
     display: flex;
     margin-bottom: 16px;
-    width: 567px;
+    width: 414px;
     
 }
 .container-bebidas {
     display: flex;
     margin-bottom: 16px;
-    width: 567px;
+    width: 414px;
     
 }
 .container-sobremesas {
@@ -420,7 +423,7 @@ margin-top: px;
 
 .BFs {
        
-width: 100%;
+width: 414px;
 height: 61px;
 
 background: #CBCBCB;
@@ -449,6 +452,14 @@ letter-spacing: 0.018em;
 color: #FFFFFF;
 
 }
+.iconimg {
+    width: 15px;
+    height: 15px;
+    
+}
+
+
+
 .selecionado {
     border-color: green;
 }
@@ -476,3 +487,24 @@ top: 583px;
 background: #FFFFFF;
 border-radius: 100px;
 }
+
+.card .iconstyle {
+    /* Vector */
+    position: absolute;
+
+    bottom: 15.78px;
+    right: 28.78px;
+  
+    width: 15.44px;
+    
+   
+}
+
+.container-comidas div {
+    position: relative;
+} 
+.container-bebidas div {
+    position: relative;
+}
+.container-sobremesas div {
+    position: relative;
